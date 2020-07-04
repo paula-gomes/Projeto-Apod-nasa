@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-BR">
     <head>
         <link rel="stylesheet" href="style.css"> 
-        <script defer src= script.js> </script>         
+        <script defer src= "script.js"> </script>         
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title> Astronomy Picture of the day</title>        
     </head>
+
     <body>
+        <p id="frase">Escolha uma data para ver o céu </p>
+        <form action="" id="formDate">
+
+            <input name= "dia" id="dateform" type="date">
+            <button id="sub"  form="formDate"> Click!</button>
+        </form>
+
         <div id="title"><h1> Astronomy Picture of the day<h1></div>
         <div id="date"> Date: </div>
         <img id ="mediaOftheDay" src = ""> 
@@ -17,4 +25,6 @@
         <div id="cpyRight"> Copyright &copy; </div>
 
     </body>
+
+
 </html>
