@@ -20,7 +20,7 @@ reqData.onload= function (){
     titleOfPic.textContent=reqResult.title;
 
     let cpyRightOfPic= document.querySelector("#cpyRight");
-    cpyRightOfPic.textContent+= + reqResult.copyright;}
+    cpyRightOfPic.textContent+= reqResult.copyright;}
     else
     { alert("Não foi possível completar a sua requisição")}
     

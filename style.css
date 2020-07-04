@@ -11,8 +11,9 @@ body{
     text-align:center;
 }
 #mediaOftheDay{
-   width:600px;
-   margin-left: 30%;
+   width: 50%;
+   margin-left: 25%;
+   margin-right:25%;
    border-radius: 5px;
    padding: 15px;
    background: #b9cced;
@@ -26,6 +27,7 @@ body{
 }
 #titleOfimg{
     text-align:center;
+    font-weight: bold;
 
 }
 
@@ -35,10 +37,17 @@ body{
 }
 @media(max-width: 768px)
 {
+    #title{
+    
+        width: 85%;
+        margin-left: 8%;        
+
+    }
     #mediaOftheDay
     {
-          width: 300px;
-          margin: 10%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 }
