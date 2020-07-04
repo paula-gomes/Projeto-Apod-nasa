@@ -8,19 +8,19 @@ reqData.onload= function (){
     { let reqResult=JSON.parse(reqData.responseText);    
 
     let dateOfMedia= document.querySelector("#date");
-    dateOfMedia.textContent=reqResult.date;
+    dateOfMedia.textContent+=reqResult.date;
 
     let picOfDay= document.querySelector("#mediaOftheDay");
     picOfDay.src=reqResult.url;  
 
     let explainPic=document.querySelector("#explanation");
-    explainPic.textContent=reqResult.explanation;
+    explainPic.textContent+=reqResult.explanation;
            
     let titleOfPic=document.querySelector("#titleOfimg");
     titleOfPic.textContent=reqResult.title;
 
     let cpyRightOfPic= document.querySelector("#cpyRight");
-    cpyRightOfPic.textContent= " Copyright: " + reqResult.copyright;}
+    cpyRightOfPic.textContent+= + reqResult.copyright;}
     else
     { alert("Não foi possível completar a sua requisição")}
     
