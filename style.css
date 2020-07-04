@@ -1,0 +1,44 @@
+body{
+    background-color: #f6e5f5;
+    font-family:monospace;
+}
+
+#title{
+    text-align:center;
+}
+
+#date{
+    text-align:center;
+}
+#mediaOftheDay{
+   width:600px;
+   margin-left: 30%;
+   border-radius: 5px;
+   padding: 15px;
+   background: #b9cced;
+   
+}
+
+#explanation{
+    font-size:larger;
+    text-align:center;
+    padding:20px;
+}
+#titleOfimg{
+    text-align:center;
+
+}
+
+#cpyRight{    
+
+    text-align:center;
+}
+@media(max-width: 768px)
+{
+    #mediaOftheDay
+    {
+          width: 300px;
+          margin: 10%;
+    }
+
+}
